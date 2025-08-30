@@ -1,9 +1,9 @@
-export default function Produto() {
+export default function Cliente() {
     return (
         <>
             <div className="flex flex-row">
-                <div className="w-full bg-[#af2c04] py-6 px-12 text-white">
-                    <a href="/" className="rounded-2xl bg-white p-2 text-black hover:bg-orange-700 hover:text-white transition duration-300 px-4 py-2">
+                <div className="w-full bg-[#001010] py-6 px-12 text-white">
+                    <a href="/" className="rounded-2xl bg-white p-2 text-black hover:bg-gray-700 hover:text-white transition duration-300 px-4 py-2">
                         Home
                     </a>
                 </div>
@@ -14,8 +14,8 @@ export default function Produto() {
                     </a>
                 </div>
 
-                <div className="w-full bg-[#ff9100] py-6 px-12 text-white">
-                    <a href="/cliente" className="rounded-2xl bg-white p-2 text-black hover:bg-yellow-500 hover:text-white transition duration-300 px-4 py-2">
+                <div className="w-full bg-[#ff00bf] py-6 px-12 text-white">
+                    <a href="/cliente" className="rounded-2xl bg-white p-2 text-black hover:bg-pink-400 hover:text-white transition duration-300 px-4 py-2">
                         Clientes
                     </a>
                 </div>
